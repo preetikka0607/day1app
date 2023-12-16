@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+// import plogoImg from './assets/p logo.jpg';
 import './App.css';
+import Home from './pages/Home/Home';
 
+// function OffersComponent(){
+//   return(
+//   <div className="offer-container">
+//       <p>HelloWorld</p>
+//       <h1>Hello you got offers</h1>
+//       <h2>Grab yours</h2>
+//       <button>Order now</button>
+//   </div>
+// //   );
+// }
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Home/>
     </div>
   );
 }

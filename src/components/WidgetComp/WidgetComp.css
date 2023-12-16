@@ -1,0 +1,15 @@
+.widget-container{
+    width: 20vw;
+    background-color: rgb(217, 72, 120);
+    color:white;
+    padding: 30px;
+    border-radius: 20px;
+}
+.widget-container p{
+    color:white;
+    margin: 0;
+}
+.widget-container h2{
+    color:white;
+    margin:0;
+}

@@ -1,0 +1,12 @@
+.txtbutton{
+    padding: 10px 21px ;
+    background-color:bisque;
+    color: rgb(217, 72, 120);
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+    cursor: pointer;
+}
+.txtbutton:hover{
+    background-color: rgb(217, 72, 120);
+    color: white;
+}

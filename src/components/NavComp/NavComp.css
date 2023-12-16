@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+.nav-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik',sans-serif;
+    box-shadow: 6px 0px 30px 2px rgb(108, 104, 104);
+  }
+  .Header{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .logotitle{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    color:#e0376e;
+  }
+  .logotitle p{
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0;
+  }
+  .NavOptions{
+    display: flex;
+    align-items: center;
+    gap:90px;
+  } 
+  .NavOptions p{
+    color: rgb(108, 104, 104);
+    font-weight: 450;
+  }
+  .NavOptions p:hover{
+    color:#e0376e;
+    cursor: pointer;
+  }
+  
+  .Header>div img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+  }
+  
+  .Header>div img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    cursor: pointer; 
+  }
+  
+  .offercomp-wrapper{
+    width: 100vw;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }

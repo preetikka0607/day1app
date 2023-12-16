@@ -1,0 +1,25 @@
+.widget{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.widget-wrapper{
+    width: 80vw;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-top: 20px;
+  }
+  .text-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .innertext-div{
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  
