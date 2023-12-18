@@ -1,4 +1,5 @@
 import { ImgDesc } from './ImgDesc';
+import { useState } from 'react';
 import pizza from '../../assets/pizza.png';
 import dosa from '../../assets/dosa.jpg';
 import ramen from '../../assets/ramen.png';
@@ -8,9 +9,10 @@ import idli from '../../assets/idli.jpg';
 import briyani from '../../assets/briyani.avif'
 import './ItemsComp.css';
 export function ItemsComp(){
+    const[itemData, setItemData] = useState('Pizza');
     function handleOnImg(name){
-        console.log(name);
-        console.log('clicked on pizza');
+        setItemData(name);
+        console.log(itemData);
     }
     return(
         <div className='container'>
