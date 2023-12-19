@@ -5,3 +5,10 @@
     gap: 25px;
     flex-wrap: wrap;
 }
+
+.dish-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

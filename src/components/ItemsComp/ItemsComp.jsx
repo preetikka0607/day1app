@@ -8,6 +8,8 @@ import soup from '../../assets/soup.jpg';
 import idli from '../../assets/idli.jpg';
 import briyani from '../../assets/briyani.avif'
 import './ItemsComp.css';
+import { ItemOrder } from './ItemOrder';
+import { dishArray } from '../../data/data';
 export function ItemsComp(){
     const[itemData, setItemData] = useState('Pizza');
     function handleOnImg(name){
@@ -25,8 +27,22 @@ export function ItemsComp(){
                 <ImgDesc selectedItem={()=>handleOnImg('Soup')} dishImg = {soup} description='Soup'/>
                 <ImgDesc selectedItem={()=>handleOnImg('Briyani')} dishImg = {briyani} description='Briyani'/>
             </div>
+            <br></br>
+            <div className='text-div'>
+            <div className='innertext-div'>
+            <div className='dish-wrapper'>
+            { dishArray[itemData].item1.map((item) =>
             <div>
-              
+                <ItemOrder title={item.title} weight={item.weight} price={item.price} image={item.image}/>
+            </div>
+           )}
+            </div>
+            </div>
+            </div>
+            <div className='text-div'>
+            <div className='innertext-div'>
+            <h2>What do you like to Have?..</h2>
+            </div>
             </div>
         </div>
     );

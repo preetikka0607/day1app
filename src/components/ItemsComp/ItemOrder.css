@@ -1,0 +1,47 @@
+.detailed-wrapper{
+    margin-top: 10px;
+    width: 35vw;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: bisque;
+    color: black;
+}
+.contentImage-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.dishImage{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+.dishImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.priceButton-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.priceButton-wrapper p{
+    margin: 0;
+    padding: 10px 20px;
+    background-color:  rgb(217, 72, 120);
+    color: white;
+    border-radius: 10px;
+}
+.priceButton-wrapper button{
+    background-color: transparent;
+    border-color:rgb(217, 72, 120);
+    color: rgb(217, 72, 120);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    border-style:solid;
+}

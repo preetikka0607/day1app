@@ -35,6 +35,10 @@
     position: relative;
     margin-left: 20px;
   }
+  .brand-detail ul li:hover {
+    color:  rgb(213, 28, 90);
+    cursor: pointer;
+  }
   
   .brand-detail ul li:before {
     content: "";
